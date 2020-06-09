@@ -17,6 +17,8 @@ The emojifier can automatically turn this into:
     * This works even if those additional words don't even appear in the training set. 
     * This allows you to build an accurate classifier mapping from sentences to emojis, even using a small training set. 
 
-##The above notebook cantains two models to accomplish this
+## The above notebook cantains two models to accomplish this
 1. Baseline Model: Which just uses the average of all word vectors in a sentence and pushes it through a softmax classifier
 2. 2 layer deep LSTM 
+
+this notebook is deriver from the MOOC course [Sequence Models](https://www.coursera.org/learn/nlp-sequence-models)
