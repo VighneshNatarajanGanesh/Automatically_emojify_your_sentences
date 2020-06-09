@@ -21,4 +21,13 @@ The emojifier can automatically turn this into:
 1. Baseline Model: Which just uses the average of all word vectors in a sentence and pushes it through a softmax classifier
 2. 2 layer deep LSTM 
 
+## Emoji Set:
+<img src="images/data_set.png" style="width:700px;height:300px;">
+
+## Model 1:
+<img src="images/image_1.png" style="width:900px;height:300px;">
+
+## Model 2:
+<img src="images/emojifier-v2.png" style="width:700px;height:400px;">
+
 This notebook is derived from the MOOC course [Sequence Models](https://www.coursera.org/learn/nlp-sequence-models) by deeplearning.ai
